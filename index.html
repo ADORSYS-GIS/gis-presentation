@@ -1,289 +1,155 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Parent presentation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenAI Compatibility & LiteLLM</title>
 </head>
+
 <body>
-<div class="reveal">
-    <img src="src/assets/logos/favicon-light@.svg" alt="@-logo" class="logo">
-    <div class="slides">
-        <!-- Title Slide -->
-        <section>
-            <img src="src/assets/logos/adorsys.png" alt="adorsys-logo">
-            <h2>End of Training Program Presentation</h2>
-            <p>Welcome to the end of training program presentation for your children at the training center.</p>
-        </section>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Opening -->
+            <section>
+                <h4>AI-Powered Productivity</h4>
+                <h1>OpenAI Compatibility & LiteLLM Proxy</h1>
+                <h6>Workshop for Developers & PMs - 2025</h6>
+                <p class="fragment"><em class="greyish">Standardized APIs for flexible AI integrations</em></p>
+            </section>
 
-        <!-- Assiduity -->
-        <section>
+            <!-- What is OpenAI Compatibility -->
             <section>
-                <h2>Assiduity</h2>
-                <img src="src/assets/images/assiduity.svg" alt="Assiduity">
-                <p>No Record of unexcused absences</p>
-            </section>
-            <section>
-                <h3>Participation in Classes</h3>
-                <img src="src/assets/images/participation.svg" alt="Participation">
-                <p>Active involvement in discussions</p>
-                <p>Engaging with peers and instructors</p>
-            </section>
-            <section>
-                <h3>Punctuality</h3>
-                <img src="src/assets/images/punctuality.svg" alt="Punctuality">
-                <p>Timely submission of assignments</p>
-                <p>Consistent arrival on time</p>
-            </section>
-            <section>
-                <h3>Home Assiduity</h3>
-                <img src="src/assets/images/home_assiduity.svg" alt="Home Assiduity">
-                <p>Collaboration with parents</p>
-                <p>Regular check-ins with the colleague</p>
-                <p>Consistent study schedule at home</p>
-            </section>
-        </section>
-
-        <!-- Work -->
-        <section>
-            <section>
-                <h2>Work</h2>
-                <img src="src/assets/images/assigntment_completed.svg" alt="Assignments">
-                <p>Homework assignments</p>
-                <p>Group projects</p>
-                <p>Individual tasks</p>
-            </section>
-            <section>
-                <h3>Projects Developed</h3>
-                <img src="src/assets/images/projects_developed.svg" alt="Projects">
-                <p>Science fair projects</p>
-                <p>Research and exposes</p>
-                <p>Technology and coding projects</p>
-            </section>
-            <section>
-                <h3>Extra-Curricular Activities</h3>
-                <img src="src/assets/images/Extra_Curricular_Activities.svg" alt="Extra-Curricular">
-                <p>Sports</p>
-                <p>Environmental conservation</p>
-                <p>Technology and innovation</p>
-            </section>
-        </section>
-
-        <!-- Progress -->
-        <section>
-            <section>
-                <h2>Progress</h2>
-                <div class="mermaid">
-                    graph TD;
-                    A[Skills Improvement]
-                    B[Knowledge Gained]
-                    C[Behavioral Changes]
-                    D[Projects]
-                </div>
-            </section>
-            <section>
-                <h3>Skills Improvement</h3>
-                <img src="src/assets/images/Skills_Improvement.svg" alt="Skills">
-                <p>Improved problem-solving abilities</p>
-            </section>
-            <section>
-                <h3>Knowledge Gained</h3>
-                <img src="src/assets/images/Knowledge_Gained.svg" alt="Knowledge">
-                <p>Understanding of core subjects</p>
-                <p>Exposure to new concepts and ideas</p>
-            </section>
-            <section>
-                <h3>Behavioral Changes</h3>
-                <img src="src/assets/images/Behavioral_Changes.svg" alt="Behavioral">
-                <p>Increased responsibility</p>
-                <p>Better teamwork and cooperation</p>
-            </section>
-        </section>
-
-        <section>
-            <section>
-                <h2>Projects</h2>
-                <div class="mermaid">
-                    graph LR;
-                    A[All] --> F
-                    A --> H
-                    A --> J
-                    A --> L
-                    A --> M
-                    F[DataSafe, XS2A & Quac 02.24] --> G[Wazuh OP 07.24]
-                    H[Keycloak 03.24] --> I[Datev Wallet 06.24]
-                    J[Rust 05.24] --> K[DidComm 05.24]
-                    L[CloudFoundry / Terraform 06.24]
-                    M[Lynx Scanner 03.24]
-                </div>
-            </section>
-            <section>
-                <h3>Project Timeline</h3>
-                <div class="mermaid">
-                    timeline
-
-                    section February 2024
-                    DataSafe, XS2A & Quac: 02.24
-
-                    section March 2024
-                    Keycloak: 03.24
-                    Lynx Scanner: 03.24
-
-                    section May 2024
-                    Rust: 05.24
-                    DidComm: 05.24
-
-                    section June 2024
-                    Datev Wallet: 06.24
-                    CloudFoundry / Terraform: 06.24
-
-                    section July 2024
-                    Wazuh OP: 07.24
-                </div>
-            </section>
-            <section>
-                <h3>Management Tasks</h3>
-                <div class="mermaid">
-                    graph TD;
-                    A["Project Management"] --> N[Applications Management]
-                    A --> O[Group Management]
-                    A --> P[Document Management]
-                </div>
-            </section>
-        </section>
-
-        <!-- Certifications -->
-        <section>
-            <section>
-                <h2>Certifications</h2>
+                <h2>What Does It Mean to be OpenAI-Compatible?</h2>
                 <ul>
-                    <li>LPIC System Admin</li>
-                    <li>Java Certified Oracle Fundamentals</li>
-                    <li>JavaScript OpenEDG Essential</li>
-                    <li>Stripe Professional Cert</li>
-                    <li>LPIC DevOps Tool Eng Cert</li>
-                    <li>...</li>
+                    <li>An API mimics OpenAI's endpoints, request, and response formats.</li>
+                    <li>Developers can use the same SDKs, CLI tools, and integrations without rewriting code.</li>
+                    <li>Supports multi-provider usage and smooth switching.</li>
                 </ul>
             </section>
-            <section>
-                <h2>Certifications</h2>
-                <div class="mermaid">
-                    graph TD;
-                    B[JavaScript OpenEDG Essential] --> D[LPIC DevOps Tool Eng Cert]
-                    C[Java Certified Oracle Fundamentals] --> D
-                    B --> E[Stripe Professional Cert]
-                    A[LPIC System Admin] --> B
-                    A --> C
-                    C --> E
-                    E --> F[...]
-                    D --> G[...]
-                </div>
-            </section>
-            <section>
-                <h3>LPIC 10X</h3>
-                <img src="src/assets/images/lpic.svg" alt="LPIC">
-                <p>Linux Professional Institute Certification</p>
-                <p>Mastery of Linux system administration</p>
-                <a href="https://www.lpi.org/our-certifications/exam-101-objectives" target="_blank">LPIC
-                    Certification</a>
-            </section>
-            <section>
-                <h3>JavaScript</h3>
-                <img src="src/assets/images/javascript.svg" alt="JavaScript">
-                <p>Fundamental and advanced JavaScript skills</p>
-                <p>Projects and applications developed using JavaScript</p>
-                <a href="https://www.javascript.com/learn/certification" target="_blank">JavaScript Certification</a>
-            </section>
-            <section>
-                <h3>Java</h3>
-                <img src="src/assets/images/java.svg" alt="Java">
-                <p>Comprehensive understanding of Java programming</p>
-                <p>Building robust applications with Java</p>
-                <a href="https://education.oracle.com/java-certification" target="_blank">Java Certification</a>
-            </section>
-        </section>
 
-        <!-- Challenges Overcome -->
-        <section>
+            <!-- Why Compatibility Matters -->
             <section>
-                <h2>Challenges</h2>
-                <img src="src/assets/images/challenges.svg" alt="Challenges">
-                <p>Academic challenges</p>
-                <p>Environmental challenges</p>
-                <p>Social challenges</p>
-            </section>
-            <section>
-                <h3>Solutions Found</h3>
-                <img src="src/assets/images/solutions.svg" alt="Solutions">
+                <h2>Why Compatibility Matters</h2>
                 <ul>
-                    <li>Different Student learning curve</li>
-                    <li>New city, new weather</li>
-                    <li>New people – new culture</li>
-                    <li>Arguing a lot?</li>
+                    <li><b>Portability:</b> Easily switch AI providers.</li>
+                    <li><b>Integration:</b> VS Code, LangChain, CLI scripts rely on OpenAI-compatible APIs.</li>
+                    <li><b>Standardization:</b> Shared response formats prevent bugs.</li>
+                    <li><b>Future-proofing:</b> Avoid vendor lock-in.</li>
                 </ul>
             </section>
-            <section>
-                <h3>Lessons Learned</h3>
-                <img src="src/assets/images/lessons_learned.svg" alt="Lessons">
-                <ul>
-                    <li>Perseverance and resilience</li>
-                    <li>Problem-solving techniques</li>
-                    <li>Personalized training for each</li>
-                    <li>...</li>
-                </ul>
-            </section>
-        </section>
 
-        <!-- Future Steps -->
-        <section>
+            <!-- Common Endpoints -->
             <section>
-                <h2>Future Steps</h2>
-                <img src="src/assets/images/future_steps.svg" alt="Goals">
-                <p>Academic aspirations</p>
-                <p>Career ambitions</p>
-            </section>
-            <section>
-                <h3>Areas for Improvement</h3>
-                <img src="src/assets/images/areas_of_improvement.svg" alt="Improvement">
-                <div class="mermaid">
-                    graph LR;
-                    A[Improvement Areas] --> B[Finances]
-                    A --> C[Continuous Learning]
-                    A --> D[Discipline]
-                </div>
-            </section>
-            <section>
-                <h3>Plans for Continuous Learning</h3>
-                <img src="src/assets/images/continues_learning.svg" alt="Learning">
-                <p>Studying at UdM</p>
-                <p>Workshops at adorsys GmbH</p>
-            </section>
-        </section>
+                <section>
+                    <h2>Common OpenAI Endpoints & Examples</h2>
+                    <div class="mermaid">
+                        mindmap
+                        root((OpenAI Endpoints))
+                          a1[Chat Completions]
+                          a2[Embeddings]
+                          a3[Fine-tuning]
+                          a4[Models]
+                          a5[Files]
+                          a6[Moderations]
+                    </div>
+                    <p>Let's look at some examples:</p>
+                </section>
+                <section>
+                    <h3>1. Chat Completions (/v1/chat/completions)</h3>
+                    <p>Used for chat-based AI interactions.</p>
+                    <pre><code>{
+  "model": "gpt-4",
+  "messages": [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Write a haiku about coding."}
+  ]
+}</code></pre>
+                    <pre><code>{
+  "id": "chatcmpl-123",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {"role": "assistant", "content": "Code flows like a stream,\nLogic dancing in silence,\nDreams in every loop."},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {"prompt_tokens": 15, "completion_tokens": 20, "total_tokens": 35}
+}</code></pre>
+                </section>
 
-        <!-- Conclusion -->
-        <section>
-            <section data-auto-animate>
-                <h2>Conclusion</h2>
-                <h3>Thank you!</h3>
-                <img src="src/assets/images/conclusion.svg" alt="Summary">
-                <p>Overview of the progress made</p>
-                <p>Highlights of memorable moments</p>
+                <section>
+                    <h3>2. Embeddings (/v1/embeddings)</h3>
+                    <p>Used for vector representations of text.</p>
+                    <pre><code>{
+  "model": "text-embedding-ada-002",
+  "input": "AI compatibility is powerful."
+}</code></pre>
+                    <pre><code>{
+  "object": "embedding",
+  "data": [
+    {"index": 0, "embedding": [0.0123, -0.0045, 0.9987, ...]}
+  ],
+  "model": "text-embedding-ada-002",
+  "usage": {"prompt_tokens": 6, "total_tokens": 6}
+}</code></pre>
+                </section>
             </section>
-            <section data-auto-animate>
-                <h3>Thank you!</h3>
-                <img src="src/assets/images/encouragement.svg" alt="Encouragement">
+
+            <!-- LiteLLM Proxy -->
+            <section>
+                <h2>LiteLLM Proxy: Mapping OpenAI-Compatible APIs</h2>
                 <aside class="notes">
-                    <p>Motivating words for future endeavors</p>
-                    <p>Final thoughts and good wishes</p>
+                    <div class="mermaid">
+                        graph LR
+                        A[Acts as a proxy translating requests to multiple AI providers] --> B(Preserves OpenAI-style
+                        requests and responses)
+                        B --> C{Supports both OpenAI and non-OpenAI providers (Anthropic, Azure OpenAI, Hugging Face,
+                        etc.)}
+                    </div>
                 </aside>
-                <p>Thank you for your attention. We are proud of each child's journey and look forward to their future
-                    successes.</p>
+                <div class="mermaid">
+                    graph LR
+                    A[Developer] --> B(LiteLLM Proxy)
+                    B --> C{OpenAI}
+                    B --> D[Anthropic]
+                    B --> E((Azure))
+                    B --> F>Hugging Face]
+                </div>
             </section>
-        </section>
-    </div>
-</div>
 
-<script type="module" src="/src/main.ts"></script>
+            <!-- Response Message Format -->
+            <section>
+                <h2>Response Message Format</h2>
+                <p>Consistency is key: all providers through LiteLLM return OpenAI-compatible JSON.</p>
+                <pre><code>{
+  "id": "chatcmpl-abc",
+  "object": "chat.completion",
+  "choices": [
+    {"message": {"role": "assistant", "content": "Hello world!"}}
+  ]
+}</code></pre>
+                <p>Prevents downstream errors in clients expecting OpenAI schema.</p>
+            </section>
+
+            <!-- Takeaway -->
+            <section>
+                <h2>Takeaway</h2>
+                <ul>
+                    <li>OpenAI compatibility ensures interoperability.</li>
+                    <li>LiteLLM standardizes responses across providers.</li>
+                    <li>Developers gain freedom, flexibility, and reliability.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Questions? 🎤</h2>
+                <h3>Let's Discuss!</h3>
+            </section>
+        </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
 </body>
+
 </html>

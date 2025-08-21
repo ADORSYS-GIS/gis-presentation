@@ -18,5 +18,42 @@ img {
     height: auto;
     margin-left: $logo-margin;
     margin-top: $logo-margin;
+    border-radius: 0.5rem;
+  }
+}
+
+.greyish {
+  color: grey;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.floating-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  height: unset !important;
+  max-height: unset !important;
+}
+
+.custom-icons {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  column-gap: 10px;
+
+  img {
+    width: calc(100% / 4);
+
+    &.zed {
+      background-color: black;
+      border-radius: 1rem;
+      padding: 1rem;
+      width: calc((100% / 4) - 3rem);
+    }
   }
 }

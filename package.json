@@ -9,18 +9,20 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build-for-gh": "vite build --base=/gis-presentation"
+    "build-for-gh": "vite build --base=/ai-fast-presentation"
   },
   "devDependencies": {
-    "@types/reveal.js": "^5.0.3",
-    "gh-pages": "^6.1.1",
-    "sass": "^1.77.8",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.4"
+    "@types/reveal.js": "^5.0.5",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.87.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3"
   },
   "dependencies": {
-    "mermaid": "^10.9.1",
-    "reveal.js": "^5.1.0",
-    "reveal.js-mermaid-plugin": "^2.3.0"
-  }
+    "glob": "^11.0.3",
+    "mermaid": "^11.6.0",
+    "reveal.js": "^5.2.1",
+    "reveal.js-mermaid-plugin": "^11.4.1"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
